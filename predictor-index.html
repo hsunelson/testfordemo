@@ -1,0 +1,426 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"  href="css/reset.css" />
+	<link href="css/predictor.css" rel="stylesheet" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
+    <script src="js/jquery-1.8.3.min.js"></script>
+
+
+
+</head>
+
+<body>
+	
+	<div id="statsCon">
+		
+		<div id="statsUse">
+			<p class="statsHead">Stats to Use</p>
+			<div id="s1" class="emptySlot"><p>MORE IMPORTANT</p></div>
+			<div id="s1" class="emptySlot"><p>+</p></div>
+			<div id="s1" class="emptySlot"><p>+</p></div>
+			<div id="s1" class="emptySlot"><p>+</p></div>
+			<div id="s1" class="emptySlot"><p>+</p></div>
+			<div id="s1" class="emptySlot"><p>+</p></div>
+			<div id="s1" class="emptySlot"><p>+</p></div>
+			<div id="s1" class="emptySlot"><p>+</p></div>
+			<div id="s1" class="emptySlot"><p>+</p></div>
+			<div id="s1" class="emptySlot"><p>LESS IMPORTANT</p></div>
+		</div>
+		
+		
+		<div id="statsAll">
+			<p class="statsHead">All Stats</p>
+			<div id="a1"  class="dragger"><img src="images/drag-handle.png" /><p>Pass Offense</p></div>
+			<div id="a2"  class="dragger"><img src="images/drag-handle.png" /><p>Pass Defense</p></div>
+			<div id="a3"  class="dragger"><img src="images/drag-handle.png" /><p>Rush Offense</p></div>
+			<div id="a4"  class="dragger"><img src="images/drag-handle.png" /><p>Rush Defense</p></div>
+			<div id="a5"  class="dragger"><img src="images/drag-handle.png" /><p>Turnover Margin</p></div>
+			<div id="a6"  class="dragger"><img src="images/drag-handle.png" /><p>Points For</p></div>
+			<div id="a7"  class="dragger"><img src="images/drag-handle.png" /><p>Points Against</p></div>
+			<div id="a8"  class="dragger"><img src="images/drag-handle.png" /><p>Seed</p></div>
+			<div id="a9"  class="dragger"><img src="images/drag-handle.png" /><p>Wins</p></div>
+			<div id="a10" class="dragger"><img src="images/drag-handle.png" /><p>Home / Away</p></div>
+		</div>
+		
+	</div>
+	
+	<div id="mod0" class="module">
+		
+		<div class="main">
+			<div id="exp0" class="expertCon">
+				<div class="expertText">
+					<div id="" class="expertHead">Headline Title Here</div>
+					<div id="" class="expertBy">byline here</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus erat, consectetur nec aliquet vitae, scelerisque in urna. Aliquam imperdiet velit dolor, sed congue purus. Quisque ultricies suscipit felis sit amet sagittis. Vestibulum rhoncus tincidunt suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus erat. Pick: REDSKINS</p>
+				</div>
+			</div>
+			<div class="teamModule spacing">
+				<div id="" class="teamInfo">
+					<img id="" src="images/templogo.gif" />
+					<div class="teamInfoText">
+						<div id="" class="cityName">Washington</div>
+						<div id="" class="teamName">Redskins</div>
+						<div id="" class="teamData">Record: 00-00 <br />Seed: 0 <br />Away</div>
+					</div>
+				</div>
+				<div id="" class="teamStatsCon">
+					<div id="" class="teamStat"><div class="teamStatTxt">Pass Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pass Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Rush Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Rush Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">TO margin</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pts. for</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Pts. against</div> <div id="" class="teamStatNum">00</div></div>
+				</div>
+				
+				<div id="" class="calcCon">
+					<div id="" class="numBox">00%</div>
+					<div class="numBoxLabel">win probability</div>
+				</div>
+			
+			</div>
+			
+			<div class="teamModule">
+				<div id="" class="teamInfo">
+					<img src="images/templogo.gif" />
+					<div class="teamInfoText">
+						<div id="" class="cityName">City</div>
+						<div id="" class="teamName">Name</div>
+						<div id="" class="teamData">Record: 00-00 <br />Seed: 0 <br />Away</div>
+					</div>
+				</div>
+
+				<div id="" class="teamStatsCon">
+					<div id="" class="teamStat"><div class="teamStatTxt">Pass Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pass Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Rush Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Rush Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">TO margin</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pts. for</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Pts. against</div> <div id="" class="teamStatNum">00</div></div>
+				</div>
+				
+				<div id="" class="calcCon">
+					<div id="" class="numBox">00%</div>
+					<div class="numBoxLabel">win probability</div>
+				</div>
+
+			</div>
+			
+		</div>
+	
+		<div class="side">
+			<div class="sideContentTop">
+				<div id="" class="sideItem">Date<br />Time</div>
+				<div id="" class="sideItem"><span class="sideHeader">Line</span><br />Team by 0 0/0</div>
+				<div id="" class="sideItem"><a href="#" onmouseover="onExpertOver(0)" onmouseout="onExpertOut(0)">Expert analysis and pick</a></div>
+			</div>
+			<div class="sideContentBottom">
+				<div class="sideItem"><span class="sideHeader">User Poll</span><br />Who do you think will win?</div>
+				<div id="">
+					<form action="">
+						<input type="radio" name="" value="" onclick="" /> Team 1<br />
+						<input type="radio" name="" value="" onclick="" /> Team 2
+						<input type="submit" value="Submit" id="mysubmitbtn">
+					</form>
+				</div>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--END MODULE-->
+
+	<div id="mod1" class="module">
+		
+		<div class="main">
+			<div id="exp1" class="expertCon">
+				<div class="expertText">
+					<div id="" class="expertHead">Headline Title Here</div>
+					<div id="" class="expertBy">byline here</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus erat, consectetur nec aliquet vitae, scelerisque in urna. Aliquam imperdiet velit dolor, sed congue purus. Quisque ultricies suscipit felis sit amet sagittis. Vestibulum rhoncus tincidunt suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus erat. Pick: REDSKINS</p>
+				</div>
+			</div>
+			<div class="teamModule spacing">
+				<div id="" class="teamInfo">
+					<img src="images/templogo.gif" />
+					<div class="teamInfoText">
+						<div id="" class="cityName">Washington</div>
+						<div id="" class="teamName">Redskins</div>
+						<div id="" class="teamData">Record: 00-00 <br />Seed: 0 <br />Away</div>
+					</div>
+				</div>
+				<div id="" class="teamStatsCon">
+					<div id="" class="teamStat"><div class="teamStatTxt">Pass Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pass Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Rush Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Rush Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">TO margin</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pts. for</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Pts. against</div> <div id="" class="teamStatNum">00</div></div>
+				</div>
+				
+				<div id="" class="calcCon">
+					<div id="" class="numBox">00%</div>
+					<div class="numBoxLabel">win probability</div>
+				</div>
+			
+			</div>
+			
+			<div class="teamModule">
+				<div id="" class="teamInfo">
+					<img src="images/templogo.gif" />
+					<div class="teamInfoText">
+						<div id="" class="cityName">City</div>
+						<div id="" class="teamName">Name</div>
+						<div id="" class="teamData">Record: 00-00 <br />Seed: 0 <br />Away</div>
+					</div>
+				</div>
+
+				<div id="" class="teamStatsCon">
+					<div id="" class="teamStat"><div class="teamStatTxt">Pass Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pass Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Rush Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Rush Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">TO margin</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pts. for</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Pts. against</div> <div id="" class="teamStatNum">00</div></div>
+				</div>
+				
+				<div id="" class="calcCon">
+					<div id="" class="numBox">00%</div>
+					<div class="numBoxLabel">win probability</div>
+				</div>
+
+			</div>
+			
+		</div>
+	
+		<div class="side">
+			<div class="sideContentTop">
+				<div id="" class="sideItem">Date<br />Time</div>
+				<div id="" class="sideItem"><span class="sideHeader">Line</span><br />Team by 0 0/0</div>
+				<div id="" class="sideItem"><a href="#" onmouseover="onExpertOver(1)" onmouseout="onExpertOut(1)">Expert analysis and pick</a></div>
+			</div>
+			<div class="sideContentBottom">
+				<div class="sideItem"><span class="sideHeader">User Poll</span><br />Who do you think will win?</div>
+				<div id="">
+					<form action="">
+						<input type="radio" name="" value="" onclick="" /> Team 1<br />
+						<input type="radio" name="" value="" onclick="" /> Team 2
+						<input type="submit" value="Submit" id="mysubmitbtn">
+					</form>
+				</div>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--END MODULE-->
+
+	<div id="mod2" class="module">
+		
+		<div class="main">
+			<div id="exp2" class="expertCon">
+				<div class="expertText">
+					<div id="" class="expertHead">Headline Title Here</div>
+					<div id="" class="expertBy">byline here</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus erat, consectetur nec aliquet vitae, scelerisque in urna. Aliquam imperdiet velit dolor, sed congue purus. Quisque ultricies suscipit felis sit amet sagittis. Vestibulum rhoncus tincidunt suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus erat. Pick: REDSKINS</p>
+				</div>
+			</div>
+			<div class="teamModule spacing">
+				<div id="" class="teamInfo">
+					<img src="images/templogo.gif" />
+					<div class="teamInfoText">
+						<div id="" class="cityName">Washington</div>
+						<div id="" class="teamName">Redskins</div>
+						<div id="" class="teamData">Record: 00-00 <br />Seed: 0 <br />Away</div>
+					</div>
+				</div>
+				<div id="" class="teamStatsCon">
+					<div id="" class="teamStat"><div class="teamStatTxt">Pass Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pass Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Rush Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Rush Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">TO margin</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pts. for</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Pts. against</div> <div id="" class="teamStatNum">00</div></div>
+				</div>
+				
+				<div id="" class="calcCon">
+					<div id="" class="numBox">00%</div>
+					<div class="numBoxLabel">win probability</div>
+				</div>
+			
+			</div>
+			
+			<div class="teamModule">
+				<div id="" class="teamInfo">
+					<img src="images/templogo.gif" />
+					<div class="teamInfoText">
+						<div id="" class="cityName">City</div>
+						<div id="" class="teamName">Name</div>
+						<div id="" class="teamData">Record: 00-00 <br />Seed: 0 <br />Away</div>
+					</div>
+				</div>
+
+				<div id="" class="teamStatsCon">
+					<div id="" class="teamStat"><div class="teamStatTxt">Pass Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pass Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Rush Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Rush Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">TO margin</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pts. for</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Pts. against</div> <div id="" class="teamStatNum">00</div></div>
+				</div>
+				
+				<div id="" class="calcCon">
+					<div id="" class="numBox">00%</div>
+					<div class="numBoxLabel">win probability</div>
+				</div>
+
+			</div>
+			
+		</div>
+	
+		<div class="side">
+			<div class="sideContentTop">
+				<div id="" class="sideItem">Date<br />Time</div>
+				<div id="" class="sideItem"><span class="sideHeader">Line</span><br />Team by 0 0/0</div>
+				<div id="" class="sideItem"><a href="#" onmouseover="onExpertOver(2)" onmouseout="onExpertOut(2)">Expert analysis and pick</a></div>
+			</div>
+			<div class="sideContentBottom">
+				<div class="sideItem"><span class="sideHeader">User Poll</span><br />Who do you think will win?</div>
+				<div id="">
+					<form action="">
+						<input type="radio" name="" value="" onclick="" /> Team 1<br />
+						<input type="radio" name="" value="" onclick="" /> Team 2
+						<input type="submit" value="Submit" id="mysubmitbtn">
+					</form>
+				</div>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--END MODULE-->
+
+	<div id="mod3" class="module">
+		
+		<div class="main">
+			<div id="exp3" class="expertCon">
+				<div class="expertText">
+					<div id="" class="expertHead">Headline Title Here</div>
+					<div id="" class="expertBy">byline here</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus erat, consectetur nec aliquet vitae, scelerisque in urna. Aliquam imperdiet velit dolor, sed congue purus. Quisque ultricies suscipit felis sit amet sagittis. Vestibulum rhoncus tincidunt suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus erat. Pick: REDSKINS</p>
+				</div>
+			</div>
+			<div class="teamModule spacing">
+				<div id="" class="teamInfo">
+					<img src="images/templogo.gif" />
+					<div class="teamInfoText">
+						<div id="" class="cityName">Washington</div>
+						<div id="" class="teamName">Redskins</div>
+						<div id="" class="teamData">Record: 00-00 <br />Seed: 0 <br />Away</div>
+					</div>
+				</div>
+				<div id="" class="teamStatsCon">
+					<div id="" class="teamStat"><div class="teamStatTxt">Pass Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pass Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Rush Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Rush Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">TO margin</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pts. for</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Pts. against</div> <div id="" class="teamStatNum">00</div></div>
+				</div>
+				
+				<div id="" class="calcCon">
+					<div id="" class="numBox">00%</div>
+					<div class="numBoxLabel">win probability</div>
+				</div>
+			
+			</div>
+			
+			<div class="teamModule">
+				<div id="" class="teamInfo">
+					<img src="images/templogo.gif" />
+					<div class="teamInfoText">
+						<div id="" class="cityName">City</div>
+						<div id="" class="teamName">Name</div>
+						<div id="" class="teamData">Record: 00-00 <br />Seed: 0 <br />Away</div>
+					</div>
+				</div>
+
+				<div id="" class="teamStatsCon">
+					<div id="" class="teamStat"><div class="teamStatTxt">Pass Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pass Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Rush Off.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Rush Def.</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">TO margin</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat alt"><div class="teamStatTxt">Pts. for</div> <div id="" class="teamStatNum">00</div></div>
+					<div id="" class="teamStat"><div class="teamStatTxt">Pts. against</div> <div id="" class="teamStatNum">00</div></div>
+				</div>
+				
+				<div id="" class="calcCon">
+					<div id="" class="numBox">00%</div>
+					<div class="numBoxLabel">win probability</div>
+				</div>
+
+			</div>
+			
+		</div>
+	
+		<div class="side">
+			<div class="sideContentTop">
+				<div id="" class="sideItem">Date<br />Time</div>
+				<div id="" class="sideItem"><span class="sideHeader">Line</span><br />Team by 0 0/0</div>
+				<div id="" class="sideItem"><a href="#" onmouseover="onExpertOver(3)" onmouseout="onExpertOut(3)">Expert analysis and pick</a></div>
+			</div>
+			<div class="sideContentBottom">
+				<div class="sideItem"><span class="sideHeader">User Poll</span><br />Who do you think will win?</div>
+				<!--<div id="">
+					<form action="">
+						<input type="radio" name="" value="" onclick="" /> Team 1<br />
+						<input type="radio" name="" value="" onclick="" /> Team 2
+						<input type="submit" value="Submit" id="mysubmitbtn">
+					</form>
+				</div>-->
+				<div id="">
+					<div id="" class="pollTeam">Team 1</div>
+					<div class="pollBar" style="width: 50%">00%</div>
+					<div id="" class="pollTeam">Team 2</div>
+					<div class="pollBar">00%</div>
+				</div>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--END MODULE-->
+
+
+
+
+	<script type="text/javascript">
+    	$('#exp0').hide();
+    	$('#exp1').hide();
+    	$('#exp2').hide();
+    	$('#exp3').hide();
+    	
+    	function onExpertOver(which) {
+    		//$('#mod' + which + " #exp" + which).css()
+    		$('#exp' + which).show();
+    	}
+
+    	function onExpertOut(which) {
+    		//$('#mod' + which + " #exp" + which).css()
+    		$('#exp' + which).hide();
+    	}
+
+    </script>
+	
+
+</body>
+
+</html>
